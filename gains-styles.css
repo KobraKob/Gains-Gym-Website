@@ -1,0 +1,112 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #333;
+}
+
+.header {
+  background-color: #007BFF;
+  color: white;
+  padding: 20px 0;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.hero {
+  background: linear-gradient(to right, #5294db, #d27e64);
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.hero h2 {
+  font-size: 2.8em;
+  font-weight: 600;
+}
+
+.cta {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 30px;
+  background-color: #FF5722;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.cta:hover {
+  background-color: #d84315;
+}
+
+section {
+  padding: 50px 20px;
+}
+
+h2 {
+  font-size: 2em;
+  color: #007BFF;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.about, .plans, .testimonials, .contact {
+  text-align: center;
+}
+
+.plan {
+  background-color: #F4F4F4;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.plan h3 {
+  color: #FF5722;
+}
+
+.plan p {
+  font-weight: 500;
+}
+
+.testimonial {
+  margin-top: 20px;
+  font-style: italic;
+  color: #555;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
